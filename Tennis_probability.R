@@ -1,4 +1,4 @@
-### Can we figure out the probability of a player winning a match, by knowing the probability that the player wins a point?
+### Can we figure out the probability of a player winning a match, just by knowing the probability that the player wins a point?
 ### Math and stats taken from u/obvnotlupus (on r/tennis)
 
 p_game = function(pp) {
@@ -120,3 +120,6 @@ nadal_p = 0.55
 
 p_match_bo3(nadal_p)
 p_match_bo5(nadal_p)
+
+### Nadal wins 91% in BO3 and 95.3% in BO5. Let's hope this goes up.
+### Caveat: this code approximates "infinite deuce"
