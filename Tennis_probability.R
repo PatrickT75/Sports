@@ -1,3 +1,6 @@
+### Can we figure out the probability of a player winning a match, by knowing the probability that the player wins a point?
+### Math and stats taken from u/obvnotlupus (on r/tennis)
+
 p_game = function(pp) {
   ##### pp = probability of winning a point
   total = 0
